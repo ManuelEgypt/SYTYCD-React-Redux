@@ -16,6 +16,7 @@ class SearchBar extends Component {
             type="text"
             onChange={event => this.props.filterAuthors(event.target.value)}
           />
+  
           <div className="input-group-append">
             <span className="input-group-text">
               <FontAwesomeIcon icon={faSearch} />
